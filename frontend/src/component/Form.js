@@ -71,6 +71,7 @@ const Form = () => {
   }
   return (
     <>
+      
       <form onSubmit={changeHandler}>
         <label htmlFor="fname">Enter Name:</label>
         <input type="text" id="fname" name="fname" /><br />

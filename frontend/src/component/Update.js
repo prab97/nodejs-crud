@@ -15,7 +15,7 @@ function Update() {
         }
 
     const response =  await axios.post("http://localhost:8000/update", {...data});
-    response.data.matchedCount !== 0 ? alert("Database Updated Successfully") : alert("Record Not Found.")
+    response.data.matchedCount !== 0 ? alert("Database Updated Successfully") : alert("Record Not Found. Enter Registered Email Only.")
        
        
     }

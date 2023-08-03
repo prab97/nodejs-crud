@@ -18,10 +18,10 @@ root.render(
     <BrowserRouter>
     <Routes>
 
-      <Route path="/" element={<Form />} />
-      <Route path="/records" element={<Table />} />
-      <Route path="/update" element={<Update />} />
-      <Route path="/deleterecord" element={<Delete />} />
+        <Route path="/" element={<Form />} />
+        <Route path="/records" element={<Table />} />
+        <Route path="/update" element={<Update />} />
+        <Route path="/deleterecord" element={<Delete />} />
 
     </Routes>
     

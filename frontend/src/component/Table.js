@@ -16,7 +16,8 @@ function Table() {
 //     const [ data,setdata] = useState("")
 
   return (
-    <div className="App">
+    <>
+    <div className="table-align">
     <table>
         <tr>
             <th>Name</th>
@@ -45,8 +46,13 @@ function Table() {
       
     </table>
 
-    <button onClick={(item) => navigate(-1)}>Go Back</button>
+   
 </div>
+
+<button onClick={(item) => navigate(-1)}>Go Back</button>
+    
+    </>
+    
   )
 }
 
